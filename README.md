@@ -16,8 +16,11 @@
 
 ## General Information
 - What is the purpose of your project?
+
 The purpose of this project was to learn more about the backend and frontend of the projects. In this case, I've built a full-stack project with MongoDB, React, Express and NodeJS.
+
 - Why did you undertake it?
+
 I undertook this project because it was the final one on the TOP curriculum and because I wanted to practice by doing instead of just reading.
 
 
@@ -35,7 +38,7 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./twitterscreen.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
