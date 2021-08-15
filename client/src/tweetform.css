@@ -1,0 +1,53 @@
+.tweetform__modal {
+  width: 600px;
+margin: 0 auto;
+background: white;
+padding: 35px;
+border: 2px solid #fff;
+border-radius: 20px;
+height: 210px;
+margin-top: 30px;
+margin-left: 480px;
+}
+
+.tweetform {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transform: translateZ(0);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tweetform__crossicon {
+  border-bottom: 1px solid #CED8DE;
+  margin-top: -15px;
+  margin-left: -35px;
+      margin-right: -35px;
+}
+
+.tweetform__crossicon > svg {
+    margin-left: 20px;
+}
+
+.tweetform__crossitem {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.tweetform__tweetitem {
+  max-height: 190px;
+}
+
+.tweetform_____input {
+      width: 600px;
+      resize: none;
+      font-size: 20px;
+      height: 200px;
+      margin-top: 20px;
+      outline: none;
+      border: none;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

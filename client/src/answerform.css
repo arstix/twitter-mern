@@ -1,0 +1,22 @@
+.tweetform__answer {
+  width: 600px;
+margin: 0 auto;
+background: white;
+padding: 35px;
+border: 2px solid #fff;
+border-radius: 20px;
+height: 210px;
+margin-top: 30px;
+margin-left: 480px;
+}
+
+.tweetform__answer__main {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      transform: translateZ(0);
+      background-color: rgba(0, 0, 0, 0.3);
+}

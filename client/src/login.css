@@ -1,0 +1,65 @@
+.forgetPassword_____div {
+  display: flex;
+  margin-left: 50px;
+}
+
+.login_____headertext {
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+}
+
+.twitterlogo____image {
+  width: 37px;
+  margin-left: 615px;
+  height: 37px;
+  margin-top: 10px;
+}
+
+.placeholder____div {
+  justify-content: center;
+  padding:21px;
+  width: 300px;
+  margin-bottom: 22px;
+  border: 1.2px solid rgb(207, 217, 222);
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.placeholder____div:focus, .placeholder____div:focus::placeholder, placeholder____div::after {
+  margin-bottom: 20px;
+  transition-duration: 0.2s;
+  outline-color: rgb(29, 161, 242);
+      content: attr(placeholder);
+}
+
+
+.placeholder____div:focus::placeholder {
+    transform: translate(0px, -16px);
+    color: rgb(29, 161, 242);
+    margin-bottom: 20px;
+      font-size: 12px;
+}
+
+.twitter___loginbuttonpage {
+  border: 18px solid white;
+  border-radius: 9999px;
+  border-width: 1px;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  width: 350px;
+  padding: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.placeholder_____global {
+  margin-left: 615px;
+}
+
+.forgetPassword_____div {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: rgb(27, 149, 224);
+  cursor: pointer;
+}

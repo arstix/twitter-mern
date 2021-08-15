@@ -1,0 +1,135 @@
+.tweetpage_____div {
+  display: flex;
+}
+
+.tweetpage_____leftsection {
+  display: flex;
+  flex-direction: column;
+  flex-basis:250px; /* I'm assuming that's the width you're using */
+  flex-shrink: 0; /* This means the item won't shink below 250px */
+  margin-left: 120px;
+}
+
+.twitterlogo____tweetpage {
+  width: 28px;
+}
+
+.tweetpage____tweetit {
+  padding: 0px 0px;
+  padding-left: 130px;
+}
+
+.tweetpage_____icons {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid #EFF3F4;
+}
+
+.tweetpage_____icons > svg {
+  height: 26px;
+  width: 26px;
+}
+
+.tweetpage____search {
+  flex-basis:250px; /* I'm assuming that's the width you're using */
+  flex-shrink: 0;
+  margin-right: 200px;
+  position: absolute;
+}
+
+.tweetpage_____home {
+  border-bottom: 1px solid #EFF3F4;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin-top: -9px;
+  padding: 10px;
+}
+
+.tweetpage_____input {
+    width: 600px;
+    resize: none;
+    font-size: 20px;
+    height: 200px;
+    outline: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tweetpage____anyonecananswer {
+  color: rgba(29,161,242,1.00);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tweetpage____anyonecananswer:hover {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: rgb(233,244,254);
+  color: rgba(29,161,242,1.00);
+}
+
+.button_____tweet {
+  margin-left: 380px;
+  margin-bottom: 20px;
+  border: 10px solid rgba(29,161,242,1.00);
+  background: rgba(29,161,242,1.00);
+  color: white;
+  border-radius: 200px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tweet__searchitem {
+  border: 20px solid #EFF3F4;
+  background: #EFF3F4;
+  border-radius: 220px;
+  width: 350px;
+  height: 53px;
+}
+
+.tweetpage__border {
+  border-right: 1px solid #EFF3F4;
+  margin-right: 60px;
+  border-left: 1px solid #EFF3F4;
+}
+
+.tweetform__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateZ(0);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.posts___tweets {
+  border-bottom: 1px solid #EFF3F4;
+  padding: 10px;
+}
+
+.posts___tweets > p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.tweets__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweets__icons > svg {
+  cursor: pointer;
+  width: 18px;
+}
+
+.tweets__icons > svg:hover {
+  border: 1px solid #E1EFF6;
+  border-radius: 600px;
+  background: #E1EFF6;
+  padding: -5px;
+}
