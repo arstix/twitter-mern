@@ -28,7 +28,7 @@ app.use(passport.session())
 app.use(express.urlencoded({ extended: false }));
 require('./authentication/passportConfig.js')(passport)
 
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URL, {
   useNewUrlParser: true
 });
 
