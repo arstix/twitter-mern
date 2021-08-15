@@ -36,6 +36,16 @@ List the ready features here:
 - Each user can post their tweet and the name will be assigned.
 - Authentication system.
 
+## Usage
+
+For login details:
+
+Admin: 1234
+Password: 1234
+
+Register:
+
+If you want to register a user you will need to introduce all the details. Date of birth and everything included.
 
 ## Screenshots
 ![Example screenshot](./twitterscreen.png)
@@ -56,6 +66,7 @@ Room for improvement:
 To do:
 - Comments section.
 - Let the user add images.
+- Registration verification (Now anyone can add a user no matter what he puts)
 
 
 ## Contact
